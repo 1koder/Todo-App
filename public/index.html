@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css" type="text/css">
+    <title>To-Do APP</title>
+</head>
+<body class="h-screen bg-no-repeat bg-cover bg-gradient-to-tr from-neutral-900">
+    <form>
+        
+        <div id="todoContainer" class="container items-center justify-center px-8 py-4 mx-auto text-center bg-white rounded mt-44 place-content-center tablet:mx-auto tablet:container">
+            <h3 class="container mx-auto mb-4 font-extrabold text-center text-white uppercase bg-teal-900">To-Do Mobile</h3>
+            <label for="inputField" class="px-4 py-2 font-bold text-white bg-black cursor-pointer rounded-br-xl rounded-tl-3xl">Add Task</label>
+            <input type="text" name="" placeholder="Enter New Task Here" id="inputField" class="px-4 py-2 rounded bg-none outline-stone-700 mobile:outline mobile:outline-cyan-700"/>
+            <button type="button" id="btn" class="py-2 font-bold text-white bg-black tablet:px-4 rounded-br-xl rounded-tl-2xl mobile:inline-block mobile:px-32 mobile:mt-4">submit</button> 
+        
+            <div class="">
+                <p id="todos" class="space-y-2 bg-gradient-to-tr from-slate-900"></p>                
+            </div>
+        </div>
+
+                      
+    </form>
+    
+    <script src="main.js"></script>
+</body>
+</html>
